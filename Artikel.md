@@ -1,43 +1,162 @@
-# Praktikum 7: JOIN, ROF dan CF
-
+# Praktikum 8: Fungsi Skalar dan Agregasi
+##
+Nama        : Fathiya Aulia Khoirunnisa
+<br>NIM     : 225150600111027
+<br>Kelas   :   PTI-DBDSQL-A
+## 
 Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screenshot:
 ##
- 
 ## Langkah-langkah:
-1. Pertama, buat beberapa table pada script dan masukkan data sesuai dengan yang diminta
+1. Pertama, Menjalankan fungsi Concat dengan syntax seperti berikut:
+    ```
+    SELECT CONCAT_WS(' ', ID, name) AS PROFIL
+    FROM sampel_university.student;
+    ```
+<br>Kode dan hasil sebagai berikut:
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+
+2.  Selanjutnya, menjalankan fungsi SUBSTRING_INDEX dengan syntax seperti berikut:
+    ```
+    SELECT SUBSTRING_INDEX(dept_name, ' ', 1) AS JURUSAN_INDEX
+    FROM sampel_university.department;
+    ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../Fol%201/Gambar/Screenshot%20(169).png)
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
 
-2. Untuk menampilkan semua nama nama mahasiswa beserta nama departemen mahasiswa tersebut, dapat menggunakan 
- ```
-    SELECT s.name as Nama_Mahasiswa, d.dept_name as Departemen
-    from student s
-    left join department d on s.dept_name = d.dept_name;
- ``` 
+3. Menjalankan fungsi SUBSTR dengan syntax seperti berikut:
+   ```
+   SELECT SUBSTR(dept_name, 1, 3) AS KARAKTER
+   FROM department;
+   ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../Fol%201/Gambar/Screenshot%20(170).png)
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
 
-3. Untuk menampilkan semua nama student beserta nama department yang memiliki total SKS
-(total credit) lebih dari 100 dapat menggunakan
- ```
-    SELECT s.name as Nama_Mahasiswa, d.dept_name as Departemen
-    from student s
-    inner join department d on s.dept_name = d.dept_name
-    where s.tot_cred > 100;
- ``` 
+4. Menjalankan fungsi LENGTH dengan syntax seperti berikut:
+    ```
+    SELECT LENGTH(dept_name) AS KARAKTER
+    FROM department;
+    ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../Fol%201/Gambar/Screenshot%20(171).png)
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
 
-3. Untuk menampilkan nama student dan nama instructor yang bekerja pada department yang
-sama
- ```
-    SELECT s.name as Nama_Mahasiswa, d.dept_name as Departemen
-    from student s
-    join instructor i on s.dept_name = i.dept_name ;
- ``` 
+5. Menjalankan fungsi REPLACE dengan syntax seperti berikut:
+    ```
+    SELECT REPLACE(dept_name, 'old_string', 'new_string') AS UpdatedColumnName
+    FROM department;
+    ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../Fol%201/Gambar/Screenshot%20(172).png)
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+
+6. Menjalankan fungsi ABS dengan syntax seperti berikut:
+    ```
+    SELECT ABS(salary) AS AbsoluteSalary
+    FROM instructor;
+    ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+
+7.  Menjalankan fungsi CEILING dengan syntax seperti berikut:
+    ```
+    SELECT CEILING(credits) AS RoundedCredits
+    FROM course;
+    ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+
+8. Menjalankan fungsi FLOOR dengan syntax seperti berikut:
+   ```
+   SELECT FLOOR(salary) AS FlooredSalary
+    FROM instructor;
+   ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
+
+9. Menjalankan fungsi ROUND dengan syntax seperti berikut:
+    ```
+    SELECT ROUND(budget) AS RoundedBudget
+    FROM department;
+    ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+
+10. Menjalankan fungsi SQRT dengan syntax seperti berikut:
+    ```
+    SELECT SQRT(capacity) AS SquareRootCapacity
+    FROM classroom;
+    ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+
+11. Menjalankan fungsi CURDATE dengan syntax seperti berikut:
+    ```
+    SELECT CURDATE() AS CurrentDate;
+    ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+
+12. Menjalankan fungsi CURTIME dengan syntax seperti berikut:
+    ```
+    SELECT CURTIME() AS CurrentTime;
+    ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+
+13. Menjalankan fungsi TIMESTAMP yang ingin dicari dengan syntax seperti berikut:
+   ```
+   SELECT TIMESTAMP("2023-11-14");
+   ```
+<br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
+
+14. Menjalankan fungsi AVG dan SUM untuk mengetahui rata-rata dan jumalah untuk atribut pada table tertentu dengan syntax seperti berikut:
+    ```
+    SELECT AVG(salary) AS rata_rata, SUM(salary) AS jumlah
+    FROM instructor;
+    ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+
+15. Menjalankan fungsi COUNT dengan syntax seperti berikut:
+    ```
+    SELECT COUNT(*) AS TotalRecords
+    FROM student;
+    ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+
+16.  Menjalankan fungsi agregasi (AVG) menggunakan klausa GROUP BY dengan syntax seperti berikut:
+        ```
+        SELECT building, AVG(salary) as avg_salary
+        FROM instructor
+        JOIN department ON instructor.dept_name = department.dept_name
+        GROUP BY building;
+        ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+
+17. Menjalankan fungsi agrgasi (AVG) menggunakan clausa HAVING dengan syntax seperti berikut:
+    ```
+    SELECT AVG(salary) as avg_salary, department.building
+    FROM instructor
+    JOIN department ON instructor.dept_name = department.dept_name
+    GROUP BY department.building
+    HAVING AVG(salary) > 29000;
+    ``` 
+ <br>Kode dan hasil sebagai berikut:
+
+![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
