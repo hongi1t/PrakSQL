@@ -13,7 +13,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     FROM sampel_university.student;
     ```
 <br>Kode dan hasil sebagai berikut:
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(197).png)
 
 2.  Selanjutnya, menjalankan fungsi SUBSTRING_INDEX dengan syntax seperti berikut:
     ```
@@ -22,7 +22,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(199).png)
 
 3. Menjalankan fungsi SUBSTR dengan syntax seperti berikut:
    ```
@@ -31,7 +31,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
    ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(201).png) 
 
 4. Menjalankan fungsi LENGTH dengan syntax seperti berikut:
     ```
@@ -40,7 +40,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(203).png)
 
 5. Menjalankan fungsi REPLACE dengan syntax seperti berikut:
     ```
@@ -49,7 +49,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(205).png)
 
 6. Menjalankan fungsi ABS dengan syntax seperti berikut:
     ```
@@ -58,7 +58,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(207).png)
 
 7.  Menjalankan fungsi CEILING dengan syntax seperti berikut:
     ```
@@ -67,7 +67,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(209).png)
 
 8. Menjalankan fungsi FLOOR dengan syntax seperti berikut:
    ```
@@ -76,7 +76,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
    ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(211).png) 
 
 9. Menjalankan fungsi ROUND dengan syntax seperti berikut:
     ```
@@ -85,7 +85,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(214).png)
 
 10. Menjalankan fungsi SQRT dengan syntax seperti berikut:
     ```
@@ -102,7 +102,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(216).png)
 
 12. Menjalankan fungsi CURTIME dengan syntax seperti berikut:
     ```
@@ -110,7 +110,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(218).png)
 
 13. Menjalankan fungsi TIMESTAMP yang ingin dicari dengan syntax seperti berikut:
    ```
@@ -118,7 +118,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
    ```
 <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(169).png) 
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(220).png) 
 
 14. Menjalankan fungsi AVG dan SUM untuk mengetahui rata-rata dan jumalah untuk atribut pada table tertentu dengan syntax seperti berikut:
     ```
@@ -127,7 +127,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(221).png)
 
 15. Menjalankan fungsi COUNT dengan syntax seperti berikut:
     ```
@@ -136,7 +136,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(222).png)
 
 16.  Menjalankan fungsi agregasi (AVG) menggunakan klausa GROUP BY dengan syntax seperti berikut:
         ```
@@ -147,7 +147,7 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
         ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(171).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(223).png)
 
 17. Menjalankan fungsi agrgasi (AVG) menggunakan clausa HAVING dengan syntax seperti berikut:
     ```
@@ -159,4 +159,4 @@ Berikut adalah langkah-langkah pengerjaan praktikum disertai dengan hasil screen
     ``` 
  <br>Kode dan hasil sebagai berikut:
 
-![Gambar](../PraktikumSQL/ASSET/Screenshot%20(172).png)
+![Gambar](https://github.com/hongi1t/PrakSQL/blob/main/Screenshot%20(224).png)
